@@ -124,7 +124,7 @@ export default function ReviewSection() {
       </div>
 
       {/* Filter and adding button */}
-      <div className="flex flex-wrap items-center justify-between gap-3 bg-white/5 border border-white/5 p-3 rounded-xl">
+      <div className="hidden flex flex-wrap items-center justify-between gap-3 bg-white/5 border border-white/5 p-3 rounded-xl">
         <div className="flex flex-wrap gap-1.5 items-center">
           <Filter className="h-3.5 w-3.5 text-gray-400 ml-1.5" />
           {filterTags.map((tag) => (
@@ -240,7 +240,7 @@ export default function ReviewSection() {
       </AnimatePresence>
 
       {/* Reviews feed grid */}
-      <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 text-right">
+      <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 text-right hidden">
         <AnimatePresence initial={false}>
           {filteredReviews.length === 0 ? (
             <p className="text-gray-500 text-xs italic py-4 col-span-2 text-center font-sans">لا توجد مراجعات تحت هذا التصنيف بعد.</p>

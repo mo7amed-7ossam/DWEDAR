@@ -95,7 +95,7 @@ export default function PriceEstimator({ onBookServicePackage }: PriceEstimatorP
             <h5 className="text-xs font-bold text-gray-400 uppercase tracking-wider">١. اختر الخدمات الطبية المطلوبة:</h5>
           </div>
 
-          <div className="space-y-2.5 max-h-[380px] overflow-y-auto pr-1">
+          <div className="space-y-2.5 pr-1">
             {SERVICES.map(service => {
               const isChecked = selectedIds.includes(service.id);
               return (
