@@ -1,0 +1,6 @@
+{
+  "name": "Dwedar Dental Clinic",
+  "description": "عيادات دويدار لطب وزراعة وتجميل الأسنان بصهرجت الصغرى، مركز أجا، الدقهلية - رعاية سنية حديثة وخالية من الألم تليق بابتسامتكم.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
