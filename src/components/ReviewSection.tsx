@@ -91,7 +91,7 @@ export default function ReviewSection() {
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
         {/* Rating summary */}
         <div className="rounded-xl bg-white/5 border border-white/5 p-4 flex flex-col justify-center items-center text-center">
-          <span className=" text-4xl font-extrabold text-[#0f1c24] font-display">{avgRating}</span>
+          <span className="text-4xl font-extrabold text-white font-display"><Span className="text-[#0f1c24]">{avgRating}</Span></span>
           <div className="flex items-center gap-0.5 mt-1.5 text-yellow-400">
             {[1, 2, 3, 4, 5].map(star => (
               <Star
