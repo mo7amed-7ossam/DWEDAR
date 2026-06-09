@@ -642,7 +642,7 @@ export default function App() {
 
               <div className="rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md p-6 sm:p-8 space-y-6 text-right">
                 <div className="space-y-2">
-                  <h4 className="font-display text-sm font-bold text-clinic-accent">تجاوب فوري بدون بريد إلكتروني وبدون باك اند</h4>
+                  <h4 className="font-display text-sm font-bold text-clinic-accent">تجاوب فوري</h4>
                   <p className="text-xs text-gray-300 leading-relaxed font-sans">
                     لضمان أقصى درجات حماية خصوصيتكم ولتجنب تأخير الرسائل عبر الخوادم، تم إلغاء المراسلات الورقية والاستمارات الإلكترونية. يمكنكم الآن من خلال كبسة زر واحدة فتح محادثة فورية معنا عبر واتساب لمعرفة التفاصيل أو الحصول على استشارة فورية، أو التحدث إلينا عبر الهاتف.
                   </p>
@@ -671,7 +671,7 @@ export default function App() {
                 </div>
 
                 <div className="pt-4 border-t border-white/5 text-center text-xs text-gray-400 font-sans">
-                  متاحون لتلقي المكالمات والرسائل من <span className="text-white font-bold">السبت إلى الخميس</span> • من <span className="text-white font-bold">٠٨:٠٠ صباحًا</span> وحتى <span className="text-white font-bold">٠٦:٠٠ مساءً</span>
+                  متاحون لتلقي المكالمات والرسائل من <span className="text-white font-bold">السبت إلى الخميس</span> • من <span className="text-white font-bold">٠3:٠٠ عصرا</span> وحتى <span className="text-white font-bold">11:٠٠ مساءً</span>
                 </div>
               </div>
             </div>

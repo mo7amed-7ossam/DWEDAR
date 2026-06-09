@@ -77,7 +77,7 @@ export default function PriceEstimator({ onBookServicePackage }: PriceEstimatorP
       {/* Header section with explanatory description */}
       <div className="flex items-start gap-3 mb-6 pb-6 border-b border-white/5 flex-row-reverse">
         <div className="text-right flex-1">
-          <h4 className="font-display text-sm sm:text-base font-bold text-white flex items-center gap-2 justify-start flex-row-reverse">
+          <h4 className="font-display text-sm sm:text-base font-bold text-white flex items-center gap-2 justify-start flex-row">
             <Calculator className="h-5 w-5 text-clinic-accent shrink-0" />
             مخطط وجدولة الجلسات العلاجية المخصصة
           </h4>
