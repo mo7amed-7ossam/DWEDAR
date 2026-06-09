@@ -62,9 +62,9 @@ export default function App() {
     const now = new Date();
     const hours = now.getHours();
     if (hours >= 8 && hours < 18) {
-      return { open: true, text: '• مفتوح الآن (حتى ٦:٠٠ مساءً)' };
+      return { open: true, text: '• مفتوح الآن (حتى 11:٠٠ مساءً)' };
     }
-    return { open: false, text: '• مغلق الآن (يفتح في ٨:٠٠ صباح الغد)' };
+    return { open: false, text: '• مغلق الآن (يفتح في 3:٠٠ عصر الغد)' };
   };
   const status = getClinicStatus();
 
