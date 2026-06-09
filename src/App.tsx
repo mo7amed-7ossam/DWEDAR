@@ -819,7 +819,7 @@ export default function App() {
                   </div>
                   <div className="col-span-2 bg-white/[0.02] border border-white/5 rounded-xl p-2.5">
                     <div className="text-gray-500 text-[10px] mb-0.5">ساعات العمل الرسمية بالعيادة:</div>
-                    <span className="text-cyan-300 font-sans font-bold">08:00 صباحًا - 06:00 مساءً (يوميًا عدا الجمعة)</span>
+                    <span className="text-cyan-300 font-sans font-bold">03:00 عصرا - 11:00 مساءً (يوميًا عدا الجمعة)</span>
                   </div>
                 </div>
 
